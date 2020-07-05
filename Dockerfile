@@ -7,3 +7,5 @@ FROM openjdk:8-jre-alpine
 WORKDIR /app
 COPY --from=MAVEN_BUILD /build/target/sber-test-application.jar /app/
 ENTRYPOINT ["java", "-jar", "sber-test-application.jar"]
+
+ste5an/sber-test-application:msb
