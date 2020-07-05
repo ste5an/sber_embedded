@@ -63,7 +63,7 @@ public class EmployeeService {
             Employee employeeFromDb = optional.get();
             employeeFromDb.setId(employee.getId());
             employeeFromDb.setPosition(employee.getPosition());
-            employeeFromDb.setFirstName(employee.getLastName());
+            employeeFromDb.setFirstName(employee.getFirstName());
             employeeFromDb.setLastName(employee.getLastName());
             employeeFromDb.setGivenName(employee.getGivenName());
             employeeFromDb.setPosition(employee.getPosition());
