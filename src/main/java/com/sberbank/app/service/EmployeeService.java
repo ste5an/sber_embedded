@@ -63,7 +63,11 @@ public class EmployeeService {
             Employee employeeFromDb = optional.get();
             employeeFromDb.setId(employee.getId());
             employeeFromDb.setPosition(employee.getPosition());
+<<<<<<< HEAD
             employeeFromDb.setFirstName(employee.getFirstName());
+=======
+            employeeFromDb.setFirstName(employee.getLastName());
+>>>>>>> b0ba126... Initial commit
             employeeFromDb.setLastName(employee.getLastName());
             employeeFromDb.setGivenName(employee.getGivenName());
             employeeFromDb.setPosition(employee.getPosition());
